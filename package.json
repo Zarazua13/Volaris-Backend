@@ -1,0 +1,37 @@
+{
+  "name": "responsive-register",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "postinstall": "cp .env-example .env",
+    "lint": "eslint ."
+  },
+  "author": "Mangesh Ghadigaonkar",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "8.50.0",
+    "nodemon": "2.0.4"
+  },
+  "dependencies": {
+    "bcryptjs": "2.4.3",
+    "body-parser": "1.19.0",
+    "connect-session-sequelize": "7.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "8.2.0",
+    "express": "4.17.1",
+    "express-flash": "0.0.2",
+    "express-handlebars": "5.1.0",
+    "express-session": "1.17.1",
+    "express-validator": "^7.0.1",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.6.5",
+    "node-cron": "^3.0.2",
+    "node-fetch": "^3.3.2",
+    "pdfkit": "^0.14.0",
+    "sequelize": "6.3.4",
+    "uuid": "^9.0.1",
+    "validator": "13.1.1"
+  }
+}
